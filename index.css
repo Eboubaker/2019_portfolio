@@ -1,0 +1,42 @@
+
+/* header & nav section */
+#header a:hover{
+    color: white;
+}
+#top-img{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: calc(100vw / -3.4);
+    min-height: 500px;
+}
+/* about section */
+#about{
+    margin-top: -200px;
+}
+
+#about span, #skills span, #experience span, #contact span{
+    padding: 10px 20px;
+    font-size: 20px;
+}
+#about hr, #skills hr, #experience hr , #contact hr{
+    border-width: 2px;
+    margin-top: 6px;
+}
+
+#experience .card{
+    border-top: 3px solid #d63031;
+    min-height: 400px;
+}
+.iconify {
+    color: grey;
+    margin: 0 5px;
+}
+.iconify:hover {
+    color: black;
+}
+@media(max-width:992px){/*bootstrap lg (large-screen) break-point*/
+    #about{
+        margin-top: -300px;
+    }
+}
